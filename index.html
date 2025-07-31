@@ -113,6 +113,20 @@
         .trooper-section div {
             flex: 1 1 300px;
         }
+        section#forces-empire {
+            margin-top: 48px;
+            background: #181a29;
+            border-radius: 12px;
+            padding: 28px 20px;
+            box-shadow: 0 2px 16px #0006;
+        }
+        section#forces-empire ul {
+            margin: 0 0 18px 0;
+            padding-left: 20px;
+        }
+        section#forces-empire li {
+            margin-bottom: 8px;
+        }
         footer {
             margin-top: 50px;
             text-align: center;
@@ -127,6 +141,7 @@
             .trooper-section { flex-direction: column; gap: 16px; }
             .dropbtn { width: 100%; }
             .dropdown-content { min-width: 140px; left: 0; right: 0; }
+            section#forces-empire { padding: 14px 6px; }
         }
     </style>
     <link href="https://fonts.googleapis.com/css?family=Orbitron:700" rel="stylesheet">
@@ -139,7 +154,7 @@
             <div class="dropdown">
                 <button class="dropbtn">Menu &#9662;</button>
                 <div class="dropdown-content">
-                    <a href="#">Forces de l'Empire</a>
+                    <a href="#forces-empire">Forces de l'Empire</a>
                     <a href="#">Vaisseaux</a>
                     <a href="#">Personnages</a>
                     <a href="#">Victoires</a>
@@ -150,7 +165,7 @@
     </header>
     <main>
         <img class="empire-logo" src="https://logo-marque.com/wp-content/uploads/2022/01/Galactic-Empire-Logo.png" alt="Logo Empire Galactique">
-        <h2>Bienvenue sur Star Wars Empire Passion</h2>
+        <h2>Bienvenue sur la page non-officielle de l'Empire</h2>
         <p>
             Plongez dans l'univers sombre et fascinant de l'Empire Galactique ! Découvrez son histoire, ses dirigeants emblématiques comme Dark Vador et l'Empereur Palpatine, ainsi que ses armées redoutées à travers la galaxie.
         </p>
@@ -181,7 +196,26 @@
                 </p>
             </div>
         </div>
+
+        <!-- Section Forces de l'Empire -->
+        <section id="forces-empire">
+            <h2>Forces de l'Empire</h2>
+            <ul>
+                <li><strong>Stormtroopers :</strong> Soldats d'élite, symbole de la puissance impériale.</li>
+                <li><strong>Officiers impériaux :</strong> Stratèges et commandants des flottes et armées.</li>
+                <li><strong>Inquisiteurs :</strong> Sensibles à la Force, ils traquent les Jedi survivants.</li>
+                <li><strong>Chasseurs TIE :</strong> Vaisseaux rapides et maniables, utilisés en grand nombre.</li>
+                <li><strong>AT-AT & AT-ST :</strong> Véhicules blindés terrestres pour l'assaut et la domination au sol.</li>
+                <li><strong>La Marine Impériale :</strong> Flotte de Star Destroyers et de croiseurs pour contrôler la galaxie.</li>
+                <li><strong>La Garde Royale :</strong> Protecteurs personnels de l'Empereur, vêtus de rouge.</li>
+            </ul>
+            <p>
+                L'Empire Galactique dispose d'une force militaire inégalée, combinant discipline, technologie avancée et une présence écrasante dans toute la galaxie.
+            </p>
+        </section>
     </main>
     <footer>
         © Re4lity-py | Version 1.01 | Site non officiel dédié aux fans de l'Empire Galactique
     </footer>
+</body>
+</html>

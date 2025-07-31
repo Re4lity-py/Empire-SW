@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Empire Galactique - Star Wars Passion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Orbitron', Arial, sans-serif;
+            background: linear-gradient(135deg, #11131a 60%, #2c2f4a 100%);
+            color: #e5e5e5;
+        }
+        header {
+            background: #181a29;
+            padding: 32px 0 16px 0;
+            text-align: center;
+            border-bottom: 4px solid #e50914;
+        }
+        header img {
+            width: 120px;
+        }
+        header h1 {
+            margin: 16px 0 8px 0;
+            font-size: 2.8em;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #e50914;
+            text-shadow: 2px 2px 8px #000;
+        }
+        nav {
+            margin: 24px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #e50914;
+            text-decoration: none;
+            padding: 12px 30px;
+            margin: 0 10px;
+            border-radius: 18px;
+            background: #23253d;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: background 0.2s, color 0.2s;
+        }
+        nav a:hover {
+            background: #e50914;
+            color: #fff;
+        }
+        main {
+            max-width: 900px;
+            margin: 40px auto 0 auto;
+            background: #23253d;
+            border-radius: 12px;
+            box-shadow: 0 4px 30px #000a;
+            padding: 32px;
+        }
+        .empire-logo {
+            display: block;
+            margin: 0 auto 24px auto;
+            width: 90px;
+            filter: drop-shadow(0 0 10px #e50914cc);
+        }
+        h2 {
+            color: #e50914;
+            margin-top: 0;
+            text-shadow: 1px 1px 6px #000;
+        }
+        .trooper-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            align-items: center;
+            margin-top: 36px;
+        }
+        .trooper-section img {
+            width: 200px;
+            border-radius: 50%;
+            border: 4px solid #e50914;
+            box-shadow: 0 0 24px #e5091466;
+        }
+        .trooper-section div {
+            flex: 1 1 300px;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            color: #999;
+            font-size: 0.95em;
+            background: #181a29;
+            padding: 18px 0;
+            border-top: 2px solid #e50914;
+        }
+        @media (max-width: 700px) {
+            main { padding: 14px; }
+            .trooper-section { flex-direction: column; gap: 16px; }
+            nav a { display: block; margin: 10px auto; }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:700" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg" alt="Logo Star Wars">
+        <h1>Empire Galactique</h1>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#">Forces de l'Empire</a>
+            <a href="#">Vaisseaux</a>
+            <a href="#">Personnages</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <img class="empire-logo" src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Emblem_of_the_Galactic_Empire.svg" alt="Logo Empire Galactique">
+        <h2>Bienvenue sur Star Wars Empire Passion</h2>
+        <p>
+            Plongez dans l'univers sombre et fascinant de l'Empire Galactique ! Découvrez son histoire, ses dirigeants emblématiques comme Dark Vador et l'Empereur Palpatine, ainsi que ses armées redoutées à travers la galaxie.
+        </p>
+        <div class="trooper-section">
+            <img src="https://static.wikia.nocookie.net/starwars/images/7/7e/StormtrooperHelmet.png" alt="Stormtrooper">
+            <div>
+                <h3>Les Stormtroopers</h3>
+                <p>
+                    Les Stormtroopers forment l'élite des forces armées impériales. Véritables symboles de l'oppression impériale, ils sont déployés sur tous les fronts pour maintenir l'ordre et faire régner la volonté de l'Empereur.
+                </p>
+            </div>
+        </div>
+        <div class="trooper-section">
+            <div>
+                <h3>Les Vaisseaux de l'Empire</h3>
+                <p>
+                    De l'imposant <strong>Star Destroyer</strong> au terrifiant <strong>Super Star Destroyer</strong> Executor, l'Empire possède une flotte spatiale sans égale, semant la terreur dans les systèmes stellaires.
+                </p>
+            </div>
+            <img src="https://static.wikia.nocookie.net/starwars/images/b/bd/ISD-IWANTYOU.png" alt="Star Destroyer">
+        </div>
+        <div class="trooper-section">
+            <img src="https://static.wikia.nocookie.net/starwars/images/3/32/Darth_Vader_render.png" alt="Dark Vador">
+            <div>
+                <h3>Dark Vador</h3>
+                <p>
+                    Bras droit de l'Empereur, Dark Vador est craint dans toute la galaxie. Son armure noire et sa respiration mécanique sont devenues des légendes, tout comme sa puissance dans le Côté Obscur de la Force.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        © 2025 Star Wars Empire Passion | Site non officiel dédié aux fans de l'Empire Galactique
+    </footer>
+</body>
+</html>
